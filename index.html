@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>Rock, Paper, Sissor</title>
+</head>
+<body>
+  <div class="center-text section">
+    <h1>Rock, Paper, Scissors</h1>
+  </div>
+  <div class="battle-area center-text section">
+    <div class="human">
+      <img src="./imgs/yellow.svg" alt="Yellow">
+    </div>
+    <span class="vs">
+      VS
+    </span>
+    <div class="cpu">
+      <img src="./imgs/yellow.svg" alt="Yellow">
+    </div>
+  </div>
+  <div class="results">
+    <h2>Pick a choice.</h2>
+  </div>
+  <div class="center-text section">
+    <span class="options">
+      <div class="rock" onclick="pickChoice(this)">
+        <img src="./imgs/rock.svg" alt="rock">
+      </div>
+      <div class="paper" onclick="pickChoice(this)">
+        <img src="./imgs/paper.svg" alt="paper">
+      </div>
+      <div class="scissor" onclick="pickChoice(this)">
+        <img src="./imgs/scissors.svg" alt="scissors">
+      </div>
+    </span>
+  </div>
+</body>
+</html>

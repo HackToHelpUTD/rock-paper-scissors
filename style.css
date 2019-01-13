@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+
+body {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.options img, 
+.options div {
+  display: inline;
+}
+
+.options div {
+  margin: 0 2rem;
+}
+
+.options div:hover img {
+  transform: scale(1.2);
+}
+
+.options img {
+  height: 10rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.battle-area div,
+.battle-area img {
+  display: inline;
+}
+
+.section {
+  margin: 4rem 0;
+}
+
+.human {
+  margin-right: 5rem;
+}
+
+.cpu {
+  margin-left: 5rem;
+}
+
+.battle-area img {
+  height: 20rem;
+}
+
+.vs {
+  display: inline-block;
+  font-size: 5rem;
+  margin: auto;
+}
+
+.results {
+  text-align: center;
+}
+
+@media(max-width: 768px) {
+  .battle-area img {
+    height: 7rem;
+  }
+
+  .cpu {
+    margin-left: 1rem;
+  }
+
+  .human {
+    margin-right: 1rem;
+  }
+
+  .vs {
+    font-size: 1rem;
+  }
+
+  .options img {
+    height: 5rem;
+  }
+
+  .options div {
+    margin: 0 1rem;
+  }
+}
