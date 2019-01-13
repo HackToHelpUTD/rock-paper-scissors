@@ -1,6 +1,6 @@
 function pickChoice(element) {
   var userChoice = element.firstElementChild.src;
-  var humanBox = document.getElementsByClassName("human")[0].firstElementChild;
+  var humanBox = document.getElementsByClassName("human")[0].children[1];
   
   humanBox.src = userChoice;
 
@@ -12,7 +12,7 @@ function pickChoice(element) {
 
 function CPUchoice() {
   var options = ["rock", "paper", "scissors"];
-  var CPUbox = document.getElementsByClassName("cpu")[0].firstElementChild;
+  var CPUbox = document.getElementsByClassName("cpu")[0].children[1];
   var choice = options[randomNumberGenerator()];
 
   CPUbox.src = "imgs/" + choice  + ".svg";
