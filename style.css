@@ -27,7 +27,7 @@ body {
 
 .battle-area div,
 .battle-area img {
-  display: inline;
+  display: inline-block;
 }
 
 .section {
